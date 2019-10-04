@@ -54,9 +54,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 784 432 960 448)
+	(rect 776 336 952 352)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "S[3..0]" (rect 90 0 123 12)(font "Arial" ))
+	(text "Overflow" (rect 90 0 134 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -70,9 +70,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 776 336 952 352)
+	(rect 784 432 960 448)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "Overflow" (rect 90 0 134 12)(font "Arial" ))
+	(text "F[3..0]" (rect 90 0 123 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -424,38 +424,8 @@ applicable agreement for further details.
 	(pt 680 344)
 )
 (connector
-	(text "S[0]" (rect 400 413 412 433)(font "Arial" )(vertical))
-	(pt 416 392)
-	(pt 416 440)
-)
-(connector
-	(text "S[1]" (rect 504 413 516 433)(font "Arial" )(vertical))
-	(pt 520 392)
-	(pt 520 440)
-)
-(connector
-	(text "S[2]" (rect 608 413 620 433)(font "Arial" )(vertical))
-	(pt 624 392)
-	(pt 624 440)
-)
-(connector
-	(text "S[3]" (rect 712 413 724 433)(font "Arial" )(vertical))
-	(pt 728 392)
-	(pt 728 440)
-)
-(connector
 	(pt 360 344)
 	(pt 360 184)
-)
-(connector
-	(pt 336 440)
-	(pt 416 440)
-	(bus)
-)
-(connector
-	(pt 416 440)
-	(pt 520 440)
-	(bus)
 )
 (connector
 	(pt 520 440)
@@ -515,10 +485,6 @@ applicable agreement for further details.
 (connector
 	(pt 648 184)
 	(pt 752 184)
-)
-(connector
-	(pt 752 184)
-	(pt 784 184)
 )
 (connector
 	(pt 360 64)
@@ -610,6 +576,36 @@ applicable agreement for further details.
 	(pt 736 232)
 	(pt 736 96)
 )
+(connector
+	(text "F[3]" (rect 712 413 724 433)(font "Arial" )(vertical))
+	(pt 728 392)
+	(pt 728 440)
+)
+(connector
+	(text "F[2]" (rect 608 413 620 433)(font "Arial" )(vertical))
+	(pt 624 392)
+	(pt 624 440)
+)
+(connector
+	(text "F[1]" (rect 504 413 516 433)(font "Arial" )(vertical))
+	(pt 520 392)
+	(pt 520 440)
+)
+(connector
+	(text "F[0]" (rect 400 413 412 433)(font "Arial" )(vertical))
+	(pt 416 392)
+	(pt 416 440)
+)
+(connector
+	(pt 352 440)
+	(pt 416 440)
+	(bus)
+)
+(connector
+	(pt 416 440)
+	(pt 520 440)
+	(bus)
+)
 (junction (pt 416 440))
 (junction (pt 520 440))
 (junction (pt 624 440))
@@ -618,7 +614,6 @@ applicable agreement for further details.
 (junction (pt 440 184))
 (junction (pt 544 184))
 (junction (pt 648 184))
-(junction (pt 752 184))
 (junction (pt 400 64))
 (junction (pt 504 64))
 (junction (pt 608 64))

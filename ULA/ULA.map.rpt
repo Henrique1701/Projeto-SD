@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ULA
-Thu Sep 26 16:50:45 2019
+Fri Oct 04 16:54:16 2019
 Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
 
 
@@ -40,10 +40,10 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +-------------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Thu Sep 26 16:50:44 2019         ;
+; Analysis & Synthesis Status   ; Successful - Fri Oct 04 16:54:16 2019         ;
 ; Quartus II 64-Bit Version     ; 9.1 Build 350 03/24/2010 SP 2 SJ Full Version ;
 ; Revision Name                 ; ULA                                           ;
-; Top-level Entity Name         ; MaiorQue                                      ;
+; Top-level Entity Name         ; MenorQue                                      ;
 ; Family                        ; Stratix II                                    ;
 ; Logic utilization             ; N/A                                           ;
 ;     Combinational ALUTs       ; 3                                             ;
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
-; Top-level entity name                                                      ; MaiorQue           ; ULA                ;
+; Top-level entity name                                                      ; MenorQue           ; ULA                ;
 ; Family name                                                                ; Stratix II         ; Stratix II         ;
 ; Use Generated Physical Constraints File                                    ; Off                ;                    ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
@@ -160,7 +160,7 @@ applicable agreement for further details.
 +----------------------------------+-----------------+------------------------------------+------------------------------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path ;
 +----------------------------------+-----------------+------------------------------------+------------------------------+
-; MaiorQue.bdf                     ; yes             ; User Block Diagram/Schematic File  ; H:/Quartus/ULA/MaiorQue.bdf  ;
+; MenorQue.bdf                     ; yes             ; User Block Diagram/Schematic File  ; H:/Quartus/ULA/MenorQue.bdf  ;
 +----------------------------------+-----------------+------------------------------------+------------------------------+
 
 
@@ -209,7 +209,7 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
-; |MaiorQue                  ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 9    ; 0            ; |MaiorQue           ; work         ;
+; |MenorQue                  ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 9    ; 0            ; |MenorQue           ; work         ;
 +----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -235,7 +235,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
-    Info: Processing started: Thu Sep 26 16:50:39 2019
+    Info: Processing started: Fri Oct 04 16:54:11 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ULA -c ULA
 Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info: Found 1 design units, including 1 entities, in source file somador4bits_2.bdf
@@ -254,8 +254,23 @@ Info: Found 1 design units, including 1 entities, in source file maiorque.bdf
     Info: Found entity 1: MaiorQue
 Info: Found 1 design units, including 1 entities, in source file menorque.bdf
     Info: Found entity 1: MenorQue
-Info: Elaborating entity "MaiorQue" for the top level hierarchy
-Warning: No superset bus at connection
+Warning: Entity "And" will be ignored because it conflicts with Quartus II primitive name
+Info: Found 1 design units, including 1 entities, in source file and.bdf
+Info: Found 1 design units, including 1 entities, in source file axor4bits.bdf
+    Info: Found entity 1: Axor4Bits
+Info: Found 1 design units, including 1 entities, in source file muxcomp.bdf
+    Info: Found entity 1: MuxComp
+Info: Found 1 design units, including 1 entities, in source file muxop1bit.bdf
+    Info: Found entity 1: MuxOp1Bit
+Info: Found 1 design units, including 1 entities, in source file muxop4bits.bdf
+    Info: Found entity 1: MuxOp4Bits
+Warning: Entity "Xor" will be ignored because it conflicts with Quartus II primitive name
+Info: Found 1 design units, including 1 entities, in source file xor.bdf
+Info: Found 1 design units, including 1 entities, in source file ula.bdf
+    Info: Found entity 1: ULA
+Info: Found 1 design units, including 1 entities, in source file muxover.bdf
+    Info: Found entity 1: MuxOver
+Info: Elaborating entity "MenorQue" for the top level hierarchy
 Warning: Ignored assignments for entity "Somador4Bits_2" -- entity does not exist in design
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity Somador4Bits_2 -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity Somador4Bits_2 -section_id "Root Region" was ignored
@@ -266,10 +281,10 @@ Info: Implemented 12 device resources after synthesis - the final resource count
     Info: Implemented 8 input pins
     Info: Implemented 1 output pins
     Info: Implemented 3 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4422 megabytes
-    Info: Processing ended: Thu Sep 26 16:50:45 2019
-    Info: Elapsed time: 00:00:06
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 4421 megabytes
+    Info: Processing ended: Fri Oct 04 16:54:16 2019
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:02
 
 

@@ -56,7 +56,7 @@ applicable agreement for further details.
 	(output)
 	(rect 1792 600 1968 616)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "S" (rect 90 0 97 12)(font "Arial" ))
+	(text "F" (rect 90 0 97 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -847,11 +847,6 @@ applicable agreement for further details.
 	(pt 1176 512)
 )
 (connector
-	(text "B[2]" (rect 1192 541 1204 561)(font "Arial" )(vertical))
-	(pt 1208 400)
-	(pt 1208 568)
-)
-(connector
 	(pt 1456 592)
 	(pt 1464 592)
 )
@@ -1075,6 +1070,11 @@ applicable agreement for further details.
 (connector
 	(pt 1720 656)
 	(pt 1720 616)
+)
+(connector
+	(text "A[2]" (rect 1192 541 1204 561)(font "Arial" )(vertical))
+	(pt 1208 400)
+	(pt 1208 568)
 )
 (junction (pt 904 400))
 (junction (pt 920 432))

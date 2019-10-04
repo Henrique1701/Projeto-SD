@@ -54,7 +54,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 176 232 344 248)
+	(rect 176 224 344 240)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "Cin" (rect 5 0 21 12)(font "Arial" ))
 	(pt 168 8)
@@ -70,9 +70,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 632 216 808 232)
+	(rect 736 328 912 344)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "S" (rect 90 0 97 12)(font "Arial" ))
+	(text "Cout" (rect 90 0 113 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -86,9 +86,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 736 328 912 344)
+	(rect 632 216 808 232)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "Cout" (rect 90 0 113 12)(font "Arial" ))
+	(text "F" (rect 90 0 97 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -266,10 +266,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 424 200)
-	(pt 424 184)
-)
-(connector
 	(pt 424 184)
 	(pt 440 184)
 )
@@ -296,22 +292,6 @@ applicable agreement for further details.
 (connector
 	(pt 520 312)
 	(pt 520 176)
-)
-(connector
-	(pt 568 360)
-	(pt 416 360)
-)
-(connector
-	(pt 416 360)
-	(pt 416 200)
-)
-(connector
-	(pt 536 232)
-	(pt 536 240)
-)
-(connector
-	(pt 344 240)
-	(pt 536 240)
 )
 (connector
 	(pt 568 376)
@@ -346,10 +326,6 @@ applicable agreement for further details.
 	(pt 664 344)
 )
 (connector
-	(pt 536 232)
-	(pt 552 232)
-)
-(connector
 	(pt 552 232)
 	(pt 568 232)
 )
@@ -362,14 +338,6 @@ applicable agreement for further details.
 	(pt 536 176)
 )
 (connector
-	(pt 344 200)
-	(pt 416 200)
-)
-(connector
-	(pt 416 200)
-	(pt 424 200)
-)
-(connector
 	(pt 344 168)
 	(pt 368 168)
 )
@@ -377,7 +345,27 @@ applicable agreement for further details.
 	(pt 368 168)
 	(pt 440 168)
 )
+(connector
+	(pt 568 360)
+	(pt 424 360)
+)
+(connector
+	(pt 344 200)
+	(pt 424 200)
+)
+(connector
+	(pt 424 184)
+	(pt 424 200)
+)
+(connector
+	(pt 424 200)
+	(pt 424 360)
+)
+(connector
+	(pt 344 232)
+	(pt 552 232)
+)
 (junction (pt 552 232))
 (junction (pt 520 176))
-(junction (pt 416 200))
 (junction (pt 368 168))
+(junction (pt 424 200))

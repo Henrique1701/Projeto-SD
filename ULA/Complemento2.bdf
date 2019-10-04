@@ -38,9 +38,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 632 280 808 296)
+	(rect 608 192 784 208)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "S[3..0]" (rect 90 0 123 12)(font "Arial" ))
+	(text "overflow" (rect 90 0 132 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -54,9 +54,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 608 192 784 208)
+	(rect 632 280 808 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "overflow" (rect 90 0 132 12)(font "Arial" ))
+	(text "F[3..0]" (rect 90 0 123 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -538,22 +538,22 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "S[0]" (rect 256 261 268 281)(font "Arial" )(vertical))
+	(text "F[0]" (rect 256 261 268 281)(font "Arial" )(vertical))
 	(pt 272 248)
 	(pt 272 288)
 )
 (connector
-	(text "S[1]" (rect 352 261 364 281)(font "Arial" )(vertical))
+	(text "F[1]" (rect 352 261 364 281)(font "Arial" )(vertical))
 	(pt 368 248)
 	(pt 368 288)
 )
 (connector
-	(text "S[2]" (rect 448 261 460 281)(font "Arial" )(vertical))
+	(text "F[2]" (rect 448 261 460 281)(font "Arial" )(vertical))
 	(pt 464 248)
 	(pt 464 288)
 )
 (connector
-	(text "S[3]" (rect 544 261 556 281)(font "Arial" )(vertical))
+	(text "F[3]" (rect 544 261 556 281)(font "Arial" )(vertical))
 	(pt 560 248)
 	(pt 560 288)
 )

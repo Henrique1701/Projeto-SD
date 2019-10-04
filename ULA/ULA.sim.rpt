@@ -1,0 +1,203 @@
+Simulator report for ULA
+Fri Oct 04 13:12:44 2019
+Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Comparador
+  5. MaiorQue
+  6. MenorQue
+  7. Somador4Bits_2
+  8. Coverage Summary
+  9. Complete 1/0-Value Coverage
+ 10. Missing 1-Value Coverage
+ 11. Missing 0-Value Coverage
+ 12. Simulator INI Usage
+ 13. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 14 nodes     ;
+; Simulation Coverage         ;     100.00 % ;
+; Total Number of Transitions ; 4288         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Stratix II   ;
++-----------------------------+--------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                              ;
++--------------------------------------------------------------------------------------------+--------------------+---------------+
+; Option                                                                                     ; Setting            ; Default Value ;
++--------------------------------------------------------------------------------------------+--------------------+---------------+
+; Simulation mode                                                                            ; Functional         ; Timing        ;
+; Start time                                                                                 ; 0 ns               ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF               ;               ;
+; Vector input source                                                                        ; Comparador.vwf     ;               ;
+; Vector input source                                                                        ; MaiorQue.vwf       ;               ;
+; Vector input source                                                                        ; MenorQue.vwf       ;               ;
+; Vector input source                                                                        ; Somador4Bits_2.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                 ; On            ;
+; Check outputs                                                                              ; Off                ; Off           ;
+; Report simulation coverage                                                                 ; On                 ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                 ; On            ;
+; Display missing 1-value coverage report                                                    ; On                 ; On            ;
+; Display missing 0-value coverage report                                                    ; On                 ; On            ;
+; Detect setup and hold time violations                                                      ; Off                ; Off           ;
+; Detect glitches                                                                            ; Off                ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                ; Off           ;
+; Generate Signal Activity File                                                              ; Off                ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                 ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE         ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto               ; Auto          ;
++--------------------------------------------------------------------------------------------+--------------------+---------------+
+
+
++------------+
+; Comparador ;
++------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++----------+
+; MaiorQue ;
++----------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++----------+
+; MenorQue ;
++----------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++----------------+
+; Somador4Bits_2 ;
++----------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;     100.00 % ;
+; Total nodes checked                                 ; 14           ;
+; Total output ports checked                          ; 14           ;
+; Total output ports with complete 1/0-value coverage ; 14           ;
+; Total output ports with no 1/0-value coverage       ; 0            ;
+; Total output ports with no 1-value coverage         ; 0            ;
+; Total output ports with no 0-value coverage         ; 0            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------+
+; Complete 1/0-Value Coverage                              ;
++-------------------+-------------------+------------------+
+; Node Name         ; Output Port Name  ; Output Port Type ;
++-------------------+-------------------+------------------+
+; |Comparador|S     ; |Comparador|S     ; pin_out          ;
+; |Comparador|inst1 ; |Comparador|inst1 ; out0             ;
+; |Comparador|inst4 ; |Comparador|inst4 ; out0             ;
+; |Comparador|B[3]  ; |Comparador|B[3]  ; out              ;
+; |Comparador|B[2]  ; |Comparador|B[2]  ; out              ;
+; |Comparador|B[1]  ; |Comparador|B[1]  ; out              ;
+; |Comparador|B[0]  ; |Comparador|B[0]  ; out              ;
+; |Comparador|A[3]  ; |Comparador|A[3]  ; out              ;
+; |Comparador|A[2]  ; |Comparador|A[2]  ; out              ;
+; |Comparador|A[1]  ; |Comparador|A[1]  ; out              ;
+; |Comparador|A[0]  ; |Comparador|A[0]  ; out              ;
+; |Comparador|inst2 ; |Comparador|inst2 ; out0             ;
+; |Comparador|inst  ; |Comparador|inst  ; out0             ;
+; |Comparador|inst3 ; |Comparador|inst3 ; out0             ;
++-------------------+-------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------+
+; Missing 1-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------+
+; Missing 0-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+    Info: Processing started: Fri Oct 04 13:12:41 2019
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off ULA -c ULA
+Info: Using vector source file "H:/Quartus/ULA/Comparador.vwf"
+Info: Incremental Time Input is enabled
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Error: The input signal "Comparador|B[3]" in the current input vector file "H:/Quartus/ULA/MaiorQue.vwf" is missing. Simulation will stop at the previous sub-simulation.
+Info: Simulation partitioned into 1 sub-simulations according to the input vector files specified and the maximum transition count determined by the engine
+Info: Simulation coverage is     100.00 %
+Info: Number of transitions in simulation is 4288
+Error: Can't correctly generate vector output file "H:/Quartus/ULA/db/Comparador.sim.cvwf"
+Error: Quartus II 64-Bit Simulator was unsuccessful. 2 errors, 0 warnings
+    Error: Peak virtual memory: 4316 megabytes
+    Error: Processing ended: Fri Oct 04 13:12:45 2019
+    Error: Elapsed time: 00:00:04
+    Error: Total CPU time (on all processors): 00:00:01
+
+

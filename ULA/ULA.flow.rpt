@@ -1,5 +1,5 @@
 Flow report for ULA
-Thu Sep 26 16:51:07 2019
+Fri Oct 04 16:54:38 2019
 Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
 
 
@@ -38,10 +38,10 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +-------------------------------+-----------------------------------------------+
-; Flow Status                   ; Successful - Thu Sep 26 16:51:07 2019         ;
+; Flow Status                   ; Successful - Fri Oct 04 16:54:38 2019         ;
 ; Quartus II 64-Bit Version     ; 9.1 Build 350 03/24/2010 SP 2 SJ Full Version ;
 ; Revision Name                 ; ULA                                           ;
-; Top-level Entity Name         ; MaiorQue                                      ;
+; Top-level Entity Name         ; MenorQue                                      ;
 ; Family                        ; Stratix II                                    ;
 ; Met timing requirements       ; Yes                                           ;
 ; Logic utilization             ; < 1 %                                         ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/26/2019 16:50:40 ;
+; Start date & time ; 10/04/2019 16:54:12 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ULA                 ;
 +-------------------+---------------------+
@@ -75,10 +75,11 @@ applicable agreement for further details.
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 10995770589202.156952744012676 ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                       ; --            ; MaiorQue    ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; MaiorQue    ; Top            ;
-; TOP_LEVEL_ENTITY                   ; MaiorQue                       ; ULA           ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 10995770589202.157021885109456 ; --            ; --          ; --             ;
+; MISC_FILE                          ; H:/Quartus/ULA/ULA.dpf         ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                       ; --            ; MenorQue    ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; MenorQue    ; Top            ;
+; TOP_LEVEL_ENTITY                   ; MenorQue                       ; ULA           ; --          ; --             ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --            ; --          ; eda_blast_fpga ;
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
 
@@ -88,11 +89,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:04     ; 1.0                     ; 4418 MB             ; 00:00:02                           ;
-; Fitter                  ; 00:00:07     ; 1.0                     ; 4589 MB             ; 00:00:05                           ;
-; Assembler               ; 00:00:06     ; 1.0                     ; 4419 MB             ; 00:00:02                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 4345 MB             ; 00:00:00                           ;
-; Total                   ; 00:00:18     ; --                      ; --                  ; 00:00:09                           ;
+; Analysis & Synthesis    ; 00:00:05     ; 1.0                     ; 4417 MB             ; 00:00:02                           ;
+; Fitter                  ; 00:00:05     ; 1.0                     ; 4589 MB             ; 00:00:05                           ;
+; Assembler               ; 00:00:05     ; 1.0                     ; 4418 MB             ; 00:00:02                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 4345 MB             ; 00:00:01                           ;
+; Total                   ; 00:00:16     ; --                      ; --                  ; 00:00:10                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -101,10 +102,10 @@ applicable agreement for further details.
 +-------------------------+------------------+---------------+------------+----------------+
 ; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
 +-------------------------+------------------+---------------+------------+----------------+
-; Analysis & Synthesis    ; G1C44            ; Windows Vista ; 6.2        ; x86_64         ;
-; Fitter                  ; G1C44            ; Windows Vista ; 6.2        ; x86_64         ;
-; Assembler               ; G1C44            ; Windows Vista ; 6.2        ; x86_64         ;
-; Classic Timing Analyzer ; G1C44            ; Windows Vista ; 6.2        ; x86_64         ;
+; Analysis & Synthesis    ; G2C13            ; Windows Vista ; 6.2        ; x86_64         ;
+; Fitter                  ; G2C13            ; Windows Vista ; 6.2        ; x86_64         ;
+; Assembler               ; G2C13            ; Windows Vista ; 6.2        ; x86_64         ;
+; Classic Timing Analyzer ; G2C13            ; Windows Vista ; 6.2        ; x86_64         ;
 +-------------------------+------------------+---------------+------------+----------------+
 
 
